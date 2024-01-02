@@ -81,9 +81,9 @@ function Cards({ id, title, body, reactions, handleDelete, handleEdit }: CardPro
                     <p>{body}</p>
                     <p>Reactions: {reactions}</p>
                     <div className="button-container">
-                        <IoMdEye onClick={handleView} title="view" />
-                        <AiTwotoneDelete onClick={onDeleteClick} title="delete" />
-                        <FaEdit onClick={handleEditClick} title="Edit" />
+                        <IoMdEye onClick={handleView} title="view" className="btns" />
+                        <AiTwotoneDelete onClick={onDeleteClick} title="delete" className="btns" />
+                        <FaEdit onClick={handleEditClick} title="Edit" className="btns" />
                     </div>
 
                 </>
