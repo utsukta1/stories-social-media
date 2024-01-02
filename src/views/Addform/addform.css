@@ -1,0 +1,46 @@
+.social-input {
+    display: flex;
+
+
+
+}
+
+.input-container {
+    width: 100%;
+
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-title {
+    width: 95%;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid black;
+}
+
+.input-text {
+    width: 95%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    padding: 8px;
+    /* border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+
+
+}
+
+.input-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-right: 15px;
+
+}

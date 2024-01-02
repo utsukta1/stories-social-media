@@ -1,0 +1,24 @@
+.container-content {
+    display: flex;
+    background-color: rgb(246, 246, 246);
+}
+
+.nav-bar {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 30%;
+}
+
+.feed-inp {
+    width: 75%;
+    padding: 10px;
+    /* border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.side {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+}

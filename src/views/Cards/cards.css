@@ -1,0 +1,68 @@
+.card {
+    margin-top: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(even) {
+    /* background-color: rgb(223, 235, 255); */
+    background-color: white;
+}
+
+.card:nth-child(odd) {
+    /* background-color: rgb(255, 246, 223); */
+    background-color: white;
+}
+
+.card h2 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #666;
+}
+
+.card p:last-child {
+    color: #999;
+}
+
+.card input[type="text"],
+.card textarea {
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card textarea {
+    resize: vertical;
+
+
+}
+
+.card .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.button-container {
+    display: flex;
+    gap: 5rem;
+    margin-left: 350px;
+
+}
+
+.editbtn {
+    display: flex;
+    gap: 10rem;
+}
